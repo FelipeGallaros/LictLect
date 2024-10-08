@@ -1,0 +1,24 @@
+<ion-app>
+  <ion-menu side="start" contentId="main-content">
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Menú</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list>
+        <ion-item routerLink="/login" routerDirection="root">
+          Iniciar Sesión
+        </ion-item>
+        <ion-item routerLink="/register" routerDirection="root">
+          Registrarse
+        </ion-item>
+        <ion-item routerLink="/reflexion" routerDirection="root">
+          Ver Reflexiones
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+
+  <ion-router-outlet id="main-content"></ion-router-outlet>
+</ion-app>

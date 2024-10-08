@@ -1,0 +1,7 @@
+{
+  "name": "LictLect",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
